@@ -4,14 +4,18 @@
     "description": "back para buscador de pokemones",
     "main": "app.js",
     "scripts": {
-        "start": "node src/app.js"
+        "start": "node src/app.js",
+        "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000"
     },
     "author": "Agustin Purita",
     "license": "ISC",
     "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^7.2.0",
         "nodemon": "^2.0.4"
     },
     "dependencies": {
+        "chai-http": "^4.3.0",
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "request": "^2.88.2",
