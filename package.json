@@ -1,0 +1,20 @@
+{
+    "name": "pokefinder",
+    "version": "1.0.0",
+    "description": "back para buscador de pokemones",
+    "main": "app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "author": "Agustin Purita",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5"
+    }
+}
