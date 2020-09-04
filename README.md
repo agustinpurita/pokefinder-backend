@@ -1,6 +1,6 @@
 Ubicado en el directorio del proyecto, ejecutar:
 
-node src/app
+npm run start
 
 para iniciar la aplicación.
 
